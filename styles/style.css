@@ -12,7 +12,13 @@ html {
   background: #fff;
   border-radius: 8px;
   padding: 15px 25px 22px;
+  transition: right 0.3s ease;
 }
+
+.wrapper.show{
+  right: 20px;
+}
+
 .wrapper header{
   display: flex;
   align-items: center;
